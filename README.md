@@ -11,3 +11,15 @@ Sometimes snap applications dont show fonts anymore. For example in filepicker d
 Simply stop the application, run this script and then start it again. Now fonts should be working again.
 
 [See also this post in the manjaro forum](https://forum.manjaro.org/t/howto-fix-snap-corrupted-fonts-tofu-blocks-rectangles/5487)
+
+## unescape-json
+
+Often I have to deal with json which is escaped. E.g.:
+
+```json
+{
+  \"example\":\"value\"
+}
+```
+
+This script takes the contents of the clipboard, unescapes the json and opens it with `kate`.
